@@ -27,4 +27,14 @@ public class LoginTest extends BaseTest{
 		 
 		Assert.assertEquals(driver.getTitle(), "nopCommerce demo store. Login");
 	}
+	
+//
+//\\public void testInvalidLogin() {
+//	LoginPage loginPage = new LoginPage(driver);
+	//loginPage.enterUserName("wrong@yourstore.com");
+		//loginPage.enterPassword("wrongpass");
+	//loginPage.clickLogin();
+	//Assert.assertTrue(loginPage.isLoginErrorDisplayed());
+		
+//}
 }
